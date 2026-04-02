@@ -1,0 +1,317 @@
+MSC Nastran V2013.1 (Intel Linux 5.4.0-173-generic) Control File:
+-----------------------------------------------------------------
+Nastran BUFFSIZE=8193 $(/usr/local/msc/MSC_Nastran/20131/conf/nast20131rc[3])
+JID=./nsvibe_cfg24611_10lb.bdf
+OUT=./nsvibe_cfg24611_10lb
+PWDDIR=/home/nmonzani/CINQUANTA/TEST5/MAIN
+MEM=2147482624      $ WORDS
+MACH='Intel'
+OPER='Linux'
+OSV='5.4.0-173-generic'
+MODEL='2600 MHz (cinquanta)'
+CONFIG=186640
+NPROC=24
+symbol=DELDIR='/usr/local/msc/MSC_Nastran/20131/msc20131/nast/del' $(program default)
+symbol=DEMODIR='/usr/local/msc/MSC_Nastran/20131/msc20131/nast/demo' $(program default)
+symbol=NASD_PATH=/usr/local/msc/MSC_Nastran/20131/msc20131/dyna/linux64 $(/usr/local/msc/MSC_Nastran/20131/conf/nast20131rc[11])
+symbol=NASM_PATH=/usr/local/msc/MSC_Nastran/20131/msc20131/marc/tools $(/usr/local/msc/MSC_Nastran/20131/conf/nast20131rc[10])
+symbol=SSSALTERDIR='/usr/local/msc/MSC_Nastran/20131/msc20131/nast/sssalter' $(program default)
+symbol=TPLDIR='/usr/local/msc/MSC_Nastran/20131/msc20131/nast/tpl' $(program default)
+SDIR=./nsvibe_cfg24611_10lb.T109574_25
+DBS=./nsvibe_cfg24611_10lb
+SCR=no
+SMEM=100
+BPOOL=536870656w
+NEWDEL=/usr/local/msc/MSC_Nastran/20131/msc20131/linux64/SSS
+DEL=MSCDEF
+DML=MSCDEF
+SDL=MSCDEF
+AUTH=2005@lml-1a.polimi.it
+AUTHQUE=20
+MSGCAT=/usr/local/msc/MSC_Nastran/20131/msc20131/linux64/analysis.msg
+MSGDEST='f06'
+NEWS=/usr/local/msc/MSC_Nastran/20131/msc20131/nast/news.txt
+-----------------------------------------------------------------
+MSC_ISHELLPATH=/usr/local/msc/MSC_Nastran/20131/msc20131/actran/linux64/Actran_14.1.b.72446/bin:
+MSC_JIDPATH=
+PATH=/usr/local/msc/MSC_Nastran/20131/msc20131/linux64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+LD_LIBRARY_PATH=/usr/local/msc/MSC_Nastran/20131/msc20131/linux64/nvidia:/usr/local/msc/MSC_Nastran/20131/msc20131/linux64/lib:/usr/local/msc/MSC_Nastran/20131/msc20131/linux64:/usr/local/msc/MSC_Nastran/20131/msc20131/linux64:/usr/local/msc/MSC_Nastran/20131/msc20131/linux64/lib:/usr/local/msc/MSC_Nastran/20131/msc20131/linux64/nCode/bin
+/bin/ls: cannot access '/lib64/libc.so.*': No such file or directory
+/bin/ls: cannot access '/lib64/libpthread.so.*': No such file or directory
+/bin/ls: cannot access '/lib64/librt.so.*': No such file or directory
+/bin/ls: cannot access '/lib64/libm.so.*': No such file or directory
+SCA_SERVICE_CATALOG=/usr/local/msc/MSC_Nastran/20131/msc20131/res/SCAServiceCatalog.xml
+SCA_RESOURCE_DIR=/usr/local/msc/MSC_Nastran/20131/msc20131/res
+Cmd Line:    /usr/local/msc/MSC_Nastran/20131/msc20131/linux64/nastran nsvibe_cfg24611_10lb.bdf sdir=./
+Current Dir: /home/nmonzani/CINQUANTA/TEST5/MAIN
+Time Cmd:    time 
+Executable:  /usr/local/msc/MSC_Nastran/20131/msc20131/linux64/analysis
+Arch= Kywd:  [Not specified]
+MSC_MSG:     stderr
+-----------------------------------------------------------------
+Current resource limits:
+ CPU time:                       unlimited
+ Virtual address space:          unlimited
+ Working set size:               unlimited
+ Data segment size:              unlimited
+ Stack size:                          8192 KB
+ Number of open files:                1024 (hard limit: 1048576)
+ File size:                      unlimited
+ Core dump file size:                    0 MB
+-----------------------------------------------------------------
+System configuration:
+ Hostname:         cinquanta.aero.polimi.it
+ Architecture:     linux64
+ Platform:         Intel Linux 5.4.0-173-generic
+ Model:            2600 MHz
+ CPU:              GenuineIntel 
+ Clock freq.:      2600 MHz
+ Number of CPUs:   24
+ Executable:       standard
+ Raw model ID:     8664
+ Config number:    186640
+ Physical memory:  64204 MB
+ Virtual memory:   7628 MB
+ Numeric format:   32-bit little-endian IEEE.
+ Bytes per word:   4
+ Disk block size:  512 bytes (128 words)
+ Remote shell cmd: /usr/local/msc/MSC_Nastran/20131/msc20131/linux64/MSCRmtCmd (Windows, UNIX)
+                   /usr/bin/ssh (UNIX)
+-----------------------------------------------------------------
+Intel(R) Xeon(R)  CPU E5-2690 v3 
+=====  Processor composition  =====
+Processors(CPUs)  : 24
+Packages(sockets) : 1
+Cores per package : 12
+Threads per core  : 2
+=====  Processor identification  =====
+Processor	Thread Id.	Core Id.	Package Id.
+0       	0   		0   		0   
+1       	0   		1   		0   
+2       	0   		2   		0   
+3       	0   		3   		0   
+4       	0   		4   		0   
+5       	0   		5   		0   
+6       	0   		8   		0   
+7       	0   		9   		0   
+8       	0   		10  		0   
+9       	0   		11  		0   
+10      	0   		12  		0   
+11      	0   		13  		0   
+12      	1   		0   		0   
+13      	1   		1   		0   
+14      	1   		2   		0   
+15      	1   		3   		0   
+16      	1   		4   		0   
+17      	1   		5   		0   
+18      	1   		8   		0   
+19      	1   		9   		0   
+20      	1   		10  		0   
+21      	1   		11  		0   
+22      	1   		12  		0   
+23      	1   		13  		0   
+=====  Placement on packages  =====
+Package Id.	Core Id.	Processors
+0   		0,1,2,3,4,5,8,9,10,11,12,13		(0,12)(1,13)(2,14)(3,15)(4,16)(5,17)(6,18)(7,19)(8,20)(9,21)(10,22)(11,23)
+=====  Cache sharing  =====
+Cache	Size		Processors
+L1	32  KB		(0,12)(1,13)(2,14)(3,15)(4,16)(5,17)(6,18)(7,19)(8,20)(9,21)(10,22)(11,23)
+L2	256 KB		(0,12)(1,13)(2,14)(3,15)(4,16)(5,17)(6,18)(7,19)(8,20)(9,21)(10,22)(11,23)
+L3	30  MB		(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23)
+-----------------------------------------------------------------
+MSC Nastran started Thu Apr  2 18:15:25 CEST 2026
+ 18:15:25  Beginning Analysis
+SCA Kernel 12.0.169560 successfully initialized
+BLAS/LAPACK shared object "/usr/local/msc/MSC_Nastran/20131/msc20131/linux64/libmkl_core.so" has been loaded.
+BLAS/LAPACK shared object "/usr/local/msc/MSC_Nastran/20131/msc20131/linux64/libmkl_intel_thread.so" has been loaded.
+BLAS/LAPACK shared object "/usr/local/msc/MSC_Nastran/20131/msc20131/linux64/libmkl_intel_lp64.so" has been loaded.
+BLAS/LAPACK shared object "/usr/local/msc/MSC_Nastran/20131/msc20131/linux64/libMSCblas.so" has been loaded.
+
+ 18:15:25  MSC Authorization Information - System Attributes (1004, 0)
+ 18:15:25  -----------------------------------------------------------
+  Date:          Thu Apr  2 18:15:25 2026
+  MSC Id:        1418775d6551 (ethernet) (Linux)
+  Hostname:      cinquanta (user nmonzani, display /dev/tty)
+  License files: 2005@lml-1a.polimi.it
+  CEID:          563A6C1C-AC458GFG
+  User:          nmonzani
+  Display:       /dev/tty
+  LAPI Version:  LAPI 9.6.0-2694 (FLEXlm 11.9.0.0)
+
+  * * * * * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * * * * * * *
+  * *                                 * *
+  * *   MSC Customer Entitlement ID   * *
+  * *        563A6C1C-AC458GFG        * *
+  * *                                 * *
+  * * * * * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * * * * * * *
+
+ 18:15:25  MSC Authorization Information - Checkout Successful (1016, 0)
+ 18:15:25  -------------------------------------------------------------
+ 18:15:25  Acquired 1 license for MSC Nastran from license server on host lml-1a.polimi.it
+
+ 18:15:25  Reading INCLUDE file "./MBDyn_ALTER_103.nas"
+ 18:15:25  58 records read from INCLUDE file "./MBDyn_ALTER_103.nas"
+
+ 18:15:26  MSC Authorization Information - Checkout Successful (1016, 0)
+ 18:15:26  -------------------------------------------------------------
+ 18:15:26  Acquired 1 license for MSC Nastran DMAP Compile from license server on host lml-1a.polimi.it
+
+ 18:15:26  Reading INCLUDE file "./rbe3s.bdf"
+ 18:15:26  286 records read from INCLUDE file "./rbe3s.bdf"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_COORD_R11_001.dat"
+ 18:15:26  97 records read from INCLUDE file "../BULK/MAD_L108_COORD_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_MAT_R11_004T.dat"
+ 18:15:26  88 records read from INCLUDE file "../BULK/MAD_L108_MAT_R11_004T.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_MAT_ADD_R11_001.dat"
+ 18:15:26  152 records read from INCLUDE file "../BULK/MAD_L108_MAT_ADD_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_GRIDS_FUSE_R11_004.dat"
+ 18:15:26  1546 records read from INCLUDE file "../BULK/MAD_L108_GRIDS_FUSE_R11_004.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_R11_002.dat"
+ 18:15:26  1996 records read from INCLUDE file "../BULK/MAD_L108_FUSE_R11_002.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_UBM_R11_001.dat"
+ 18:15:26  61 records read from INCLUDE file "../BULK/MAD_L108_FUSE_UBM_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_E_R11_003T.dat"
+ 18:15:26  47 records read from INCLUDE file "../BULK/MAD_L108_FUSE_E_R11_003T.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_LG_R11_009.dat"
+ 18:15:26  156 records read from INCLUDE file "../BULK/MAD_L108_FUSE_LG_R11_009.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_INT_R11_001.dat"
+ 18:15:26  197 records read from INCLUDE file "../BULK/MAD_L108_FUSE_INT_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_MOD_U_R11_001.dat"
+ 18:15:26  95 records read from INCLUDE file "../BULK/MAD_L108_FUSE_MOD_U_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_MOD_L_R11_001.dat"
+ 18:15:26  41 records read from INCLUDE file "../BULK/MAD_L108_FUSE_MOD_L_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_BRSIN_R11_001.dat"
+ 18:15:26  37 records read from INCLUDE file "../BULK/MAD_L108_FUSE_BRSIN_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_CAVB_R11_001.dat"
+ 18:15:26  160 records read from INCLUDE file "../BULK/MAD_L108_FUSE_CAVB_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_PID_R11_016.dat"
+ 18:15:26  609 records read from INCLUDE file "../BULK/MAD_L108_FUSE_PID_R11_016.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_PAN_GRID_R11_001.dat"
+ 18:15:26  165 records read from INCLUDE file "../BULK/MAD_L108_FUSE_PAN_GRID_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_PANELS_R11_003.dat"
+ 18:15:26  221 records read from INCLUDE file "../BULK/MAD_L108_FUSE_PANELS_R11_003.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_BOOM_R11_001.dat"
+ 18:15:26  48 records read from INCLUDE file "../BULK/MAD_L108_BOOM_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_WA_R11_001.dat"
+ 18:15:26  290 records read from INCLUDE file "../BULK/MAD_L108_FUSE_WA_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_MLG_R11_011.dat"
+ 18:15:26  638 records read from INCLUDE file "../BULK/MAD_L108_MLG_R11_011.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_GRIDS_WING_R11_001.dat"
+ 18:15:26  3296 records read from INCLUDE file "../BULK/MAD_L108_GRIDS_WING_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_ONLY_FLEX_R11_006T.dat"
+ 18:15:26  4396 records read from INCLUDE file "../BULK/MAD_L108_WING_ONLY_FLEX_R11_006T.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_ACT_R11_001.dat"
+ 18:15:26  303 records read from INCLUDE file "../BULK/MAD_L108_ACT_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_FLEX_SO_R11_001.dat"
+ 18:15:26  311 records read from INCLUDE file "../BULK/MAD_L108_WING_FLEX_SO_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_FLEX_SPL_R11_001.dat"
+ 18:15:26  36 records read from INCLUDE file "../BULK/MAD_L108_WING_FLEX_SPL_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_FLEX_INT_R11_001.dat"
+ 18:15:26  55 records read from INCLUDE file "../BULK/MAD_L108_WING_FLEX_INT_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_AAP_R11_001.dat"
+ 18:15:26  152 records read from INCLUDE file "../BULK/MAD_L108_WING_AAP_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_FLEX_AAF_R11_001.dat"
+ 18:15:26  200 records read from INCLUDE file "../BULK/MAD_L108_WING_FLEX_AAF_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_FLEX_LE_R11_001.dat"
+ 18:15:26  964 records read from INCLUDE file "../BULK/MAD_L108_WING_FLEX_LE_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_LE_RIBLET_R11_001.dat"
+ 18:15:26  82 records read from INCLUDE file "../BULK/MAD_L108_LE_RIBLET_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_WA_R11_001.dat"
+ 18:15:26  325 records read from INCLUDE file "../BULK/MAD_L108_WING_WA_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_WLA_R11_003T.dat"
+ 18:15:26  35 records read from INCLUDE file "../BULK/MAD_L108_WING_WLA_R11_003T.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_CS_BUSH_R11_001.dat"
+ 18:15:26  64 records read from INCLUDE file "../BULK/MAD_L108_WING_CS_BUSH_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_FAIR_R11_002.dat"
+ 18:15:26  32 records read from INCLUDE file "../BULK/MAD_L108_WING_FAIR_R11_002.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WINGLET_LT_R11_002T.dat"
+ 18:15:26  1393 records read from INCLUDE file "../BULK/MAD_L108_WINGLET_LT_R11_002T.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WINGLET_RT_R11_001.dat"
+ 18:15:26  1391 records read from INCLUDE file "../BULK/MAD_L108_WINGLET_RT_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WINGLET_PROP_R11_002T.dat"
+ 18:15:26  35 records read from INCLUDE file "../BULK/MAD_L108_WINGLET_PROP_R11_002T.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_PROP_CS_R11_001.dat"
+ 18:15:26  113 records read from INCLUDE file "../BULK/MAD_L108_PROP_CS_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_CS_FLEX1_ADJ_R11_002T.dat"
+ 18:15:26  90 records read from INCLUDE file "../BULK/MAD_L108_CS_FLEX1_ADJ_R11_002T.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_GRIDS_LBF_R11_001.dat"
+ 18:15:26  227 records read from INCLUDE file "../BULK/MAD_L108_GRIDS_LBF_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_CS_LBF_R11_001.dat"
+ 18:15:26  310 records read from INCLUDE file "../BULK/MAD_L108_CS_LBF_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_GRIDS_LCS1_R11_001.dat"
+ 18:15:26  238 records read from INCLUDE file "../BULK/MAD_L108_GRIDS_LCS1_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_CS_LCS1_R11_001.dat"
+ 18:15:26  327 records read from INCLUDE file "../BULK/MAD_L108_CS_LCS1_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_GRIDS_LCS2_R11_001.dat"
+ 18:15:26  238 records read from INCLUDE file "../BULK/MAD_L108_GRIDS_LCS2_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_CS_LCS2_R11_001.dat"
+ 18:15:26  336 records read from INCLUDE file "../BULK/MAD_L108_CS_LCS2_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_GRIDS_LCS3_R11_001.dat"
+ 18:15:26  238 records read from INCLUDE file "../BULK/MAD_L108_GRIDS_LCS3_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_CS_LCS3_R11_001.dat"
+ 18:15:26  324 records read from INCLUDE file "../BULK/MAD_L108_CS_LCS3_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_GRIDS_LCS4_R11_001.dat"
+ 18:15:26  237 records read from INCLUDE file "../BULK/MAD_L108_GRIDS_LCS4_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_CS_LCS4_R11_001.dat"
+ 18:15:26  326 records read from INCLUDE file "../BULK/MAD_L108_CS_LCS4_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_GRIDS_RBF_R11_001.dat"
+ 18:15:26  230 records read from INCLUDE file "../BULK/MAD_L108_GRIDS_RBF_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_CS_RBF_R11_001.dat"
+ 18:15:26  299 records read from INCLUDE file "../BULK/MAD_L108_CS_RBF_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_GRIDS_RCS1_R11_001.dat"
+ 18:15:26  239 records read from INCLUDE file "../BULK/MAD_L108_GRIDS_RCS1_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_CS_RCS1_R11_001.dat"
+ 18:15:26  325 records read from INCLUDE file "../BULK/MAD_L108_CS_RCS1_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_GRIDS_RCS2_R11_001.dat"
+ 18:15:26  240 records read from INCLUDE file "../BULK/MAD_L108_GRIDS_RCS2_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_CS_RCS2_R11_001.dat"
+ 18:15:26  327 records read from INCLUDE file "../BULK/MAD_L108_CS_RCS2_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_GRIDS_RCS3_R11_001.dat"
+ 18:15:26  237 records read from INCLUDE file "../BULK/MAD_L108_GRIDS_RCS3_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_CS_RCS3_R11_001.dat"
+ 18:15:26  327 records read from INCLUDE file "../BULK/MAD_L108_CS_RCS3_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_GRIDS_RCS4_R11_001.dat"
+ 18:15:26  299 records read from INCLUDE file "../BULK/MAD_L108_GRIDS_RCS4_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_CS_RCS4_R11_001.dat"
+ 18:15:26  325 records read from INCLUDE file "../BULK/MAD_L108_CS_RCS4_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUEL_F_R11_RT_001.dat"
+ 18:15:26  22 records read from INCLUDE file "../BULK/MAD_L108_FUEL_F_R11_RT_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUEL_F_R11_LT_001.dat"
+ 18:15:26  22 records read from INCLUDE file "../BULK/MAD_L108_FUEL_F_R11_LT_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_ACCELS_R11_001.dat"
+ 18:15:26  20 records read from INCLUDE file "../BULK/MAD_L108_FUSE_ACCELS_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUSE_CONM2S_R11_011.dat"
+ 18:15:26  322 records read from INCLUDE file "../BULK/MAD_L108_FUSE_CONM2S_R11_011.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WAB_R11_001.dat"
+ 18:15:26  22 records read from INCLUDE file "../BULK/MAD_L108_WAB_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_SG_FLEX_R11_001.dat"
+ 18:15:26  21 records read from INCLUDE file "../BULK/MAD_L108_SG_FLEX_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_STIFF_ACCEL_R11_002.dat"
+ 18:15:26  65 records read from INCLUDE file "../BULK/MAD_L108_WING_STIFF_ACCEL_R11_002.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_WIRES_R11_001.dat"
+ 18:15:26  141 records read from INCLUDE file "../BULK/MAD_L108_WING_WIRES_R11_001.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WING_CONM2S_R11_004.dat"
+ 18:15:26  27 records read from INCLUDE file "../BULK/MAD_L108_WING_CONM2S_R11_004.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WL_ACCELS_R11_002T.dat"
+ 18:15:26  7 records read from INCLUDE file "../BULK/MAD_L108_WL_ACCELS_R11_002T.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_WL_WIRES_R11_002T.dat"
+ 18:15:26  23 records read from INCLUDE file "../BULK/MAD_L108_WL_WIRES_R11_002T.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_NASA_MA_R11_24611.dat"
+ 18:15:26  22 records read from INCLUDE file "../BULK/MAD_L108_NASA_MA_R11_24611.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUEL_R11_RT10_NASA.dat"
+ 18:15:26  21 records read from INCLUDE file "../BULK/MAD_L108_FUEL_R11_RT10_NASA.dat"
+ 18:15:26  Reading INCLUDE file "../BULK/MAD_L108_FUEL_R11_LT10_NASA.dat"
+ 18:15:26  21 records read from INCLUDE file "../BULK/MAD_L108_FUEL_R11_LT10_NASA.dat"
+ 18:15:26  Analysis started.
+ 18:15:26  Geometry access/verification to CAD part initiated (if needed).
+ 18:15:26  Geometry access/verification to CAD part successfully completed (if needed).
+ 18:15:26  705 records read from JID file "./nsvibe_cfg24611_10lb.bdf"
+ 18:15:26  A total of 27371 records were read from 75 files.
+ 18:15:26  NSEXIT: EXIT(0)
+ 18:15:26  Analysis complete  0
+0.66user 0.44system 0:01.17elapsed 93%CPU (0avgtext+0avgdata 1740600maxresident)k
+0inputs+6776outputs (0major+423564minor)pagefaults 0swaps
+-----------------------------------------------------------------
+MSC Nastran finished Thu Apr  2 18:15:27 CEST 2026
