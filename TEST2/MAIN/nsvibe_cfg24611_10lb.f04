@@ -1,0 +1,345 @@
+1
+ MACHINE                          MODEL                 OPERATING SYSTEM       MSC Nastran       BUILD DATE         RUN DATE
+     x86-64 Based Sys             Intel x8664           Linux 5.4.0-173-generi VERSION 2013.1.1  MAR 14, 2014       APR  2, 2026
+
+ 
+                               ===    M S C   N a s t r a n           E X E C U T I O N   S U M M A R Y    ===
+
+ Day_Time  Elapsed     I/O_Mb      Del_Mb     CPU_Sec    Del_CPU    Subroutine
+ 
+ 16:21:46     0:00        0.0         0.0         0.0        0.0    SEMTRN   BGN
+ 16:21:46     0:00        0.0         0.0         0.0        0.0    SEMTRN   END
+ 16:21:46     0:00        0.0         0.0         0.0        0.0    DBINIT   BGN
+      ** CURRENT PROJECT ID = ' "BLANK" '  ** CURRENT VERSION ID =          1
+
+     S U M M A R Y   O F   F I L E   A S S I G N M E N T   F O R   T H E   P R I M A R Y   D A T A B A S E     ( DBSNO   1, V2013.1 )
+
+    ASSIGNED PHYSICAL FILE NAME (/ORIGINAL)      LOGICAL NAME     DBSET        STATUS    BUFFSIZE     CLUSTER SIZE      TIME STAMP
+    ---------------------------------------      ------------     -----        ------    --------     ------------     ------------
+    ./nsvibe_cfg24611_10lb.T108736_45.MASTER     MASTER           MASTER       NEW           8193           1          260402162146
+    ./nsvibe_cfg24611_10lb.T108736_45.DBALL      DBALL            DBALL        NEW           8193           1          260402162147
+    ./nsvibe_cfg24611_10lb.T108736_45.OBJSCR     OBJSCR           OBJSCR       NEW           8193           1          260402162148
+               **** MEM FILE ****                * N/A *          SCRATCH 
+    .../nsvibe_cfg24611_10lb.T108736_45.SCRA     SCRATCH          SCRATCH      NEW           8193           1          260402162149
+    ./nsvibe_cfg24611_10lb.T108736_45.SCR300     SCR300           SCRATCH      NEW           8193           1          260402162150
+ 16:21:46     0:00        0.0         0.0         0.0        0.0    DBINIT   END
+ 16:21:46     0:00        0.0         0.0         0.0        0.0    XCSA     BGN
+
+     S U M M A R Y   O F   F I L E   A S S I G N M E N T   F O R   T H E   D E L I V E R Y   D A T A B A S E   ( DBSNO   2, V2013.1 )
+
+    ASSIGNED PHYSICAL FILE NAME (/ORIGINAL)      LOGICAL NAME     DBSET        STATUS    BUFFSIZE     CLUSTER SIZE      TIME STAMP
+    ---------------------------------------      ------------     -----        ------    --------     ------------     ------------
+    /usr/.../msc20131/linux64/SSS.MASTERA        MASTERA          MASTER       OLD           8193           1          140314083430
+   /./SSS.MASTERA                           
+    /usr/.../msc20131/linux64/SSS.MSCOBJ         MSCOBJ           MSCOBJ       OLD           8193           1          140314083435
+   /./SSS.MSCOBJ                            
+    /usr/.../msc20131/linux64/SSS.MSCSOU         MSCSOU           MSCSOU       OLD           8193           1          140314083436
+   /./SSS.MSCSOU                            
+ 16:21:46     0:00        3.0         3.0         0.1        0.0    XCSA     END
+ 16:21:46     0:00        3.0         0.0         0.1        0.0    CGPI     BGN
+ 16:21:46     0:00        3.0         0.0         0.1        0.0    CGPI     END
+ 16:21:46     0:00        3.0         0.0         0.1        0.0    XGPI     BGN
+ 16:21:46     0:00        3.0         0.0         0.1        0.0    XGPI     END
+ 16:21:46     0:00        3.0         0.0         0.1        0.0    LINKER   BGN
+ 16:21:46     0:00       14.0        11.0         0.1        0.0    LINKER   END
+ 
+     S U M M A R Y   O F   F I L E   A S S I G N M E N T   F O R   T H E   I F P   D A T A B A S E S
+ 
+    ASSIGNED PHYSICAL FILE NAME                                   LOGICAL   DBSNO  STATUS   ACCESS   RECL     FORM    MODE        
+    ------------------------------------------------------------  --------  -----  -------  ------  -------  ------  -----       
+    ./nsvibe_cfg24611_10lb.T108736_45.IFPDAT                      IFPDAT        1   NEW      DIRECT    4096   UNFMTD   R/W            
+    /usr/local/msc/MSC_Nastran/20131/msc20131/linux64/SSS.IFPSDL  IFPSDL      N/A   OLD      DIRECT    1024   UNFMTD   R/O            
+    /usr/local/msc/MSC_Nastran/20131/msc20131/linux64/SSS.IFPDML  IFPDML      N/A   OLD      SEQ        N/A   FMTD     R/O            
+
+                    S U M M A R Y   O F   P H Y S I C A L   F I L E   I N F O R M A T I O N
+
+    ASSIGNED PHYSICAL FILE NAME                                   RECL (BYTES)  MODE  FLAGS  WSIZE  (WNUM)
+    ------------------------------------------------------------  ------------  ----  -----  -------------
+    ./nsvibe_cfg24611_10lb.T108736_45.SCRATCH                            32768   R/W    L      N/A        
+    ./nsvibe_cfg24611_10lb.T108736_45.OBJSCR                             32768   R/W    L      N/A        
+    ./nsvibe_cfg24611_10lb.T108736_45.MASTER                             32768   R/W    L      N/A        
+    ./nsvibe_cfg24611_10lb.T108736_45.DBALL                              32768   R/W    L      N/A        
+    ./nsvibe_cfg24611_10lb.T108736_45.SCR300                             32768   R/W    L      N/A        
+    /usr/local/msc/.../20131/msc20131/linux64/SSS.MASTERA                32768   R/O           N/A        
+    /usr/local/msc/MSC_Nastran/20131/msc20131/linux64/SSS.MSCOBJ         32768   R/O           N/A        
+    /usr/local/msc/MSC_Nastran/20131/msc20131/linux64/SSS.MSCSOU         32768   R/O           N/A        
+
+    FLAG VALUES ARE --
+      A   ASYNCHRONOUS I/O USED TO PROCESS FILE
+      B   BUFFERED I/O USED TO PROCESS FILE
+      L   FILE HAS BEEN LOCKED
+ 
+    ASSIGNED PHYSICAL FILE NAME                                   LOGICAL   UNIT  STATUS   ACCESS   RECL  FORM    FLAGS
+    ------------------------------------------------------------  --------  ----  -------  ------  -----  ------  -----
+    ./nsvibe_cfg24611_10lb.f04                                    LOGFL        4  NEW      SEQ      N/A   FMTD         
+    ./nsvibe_cfg24611_10lb.f06                                    PRINT        6  NEW      SEQ      N/A   FMTD         
+    /usr/local/msc/MSC_Nastran/20131/msc20131/nast/news.txt       INCLD1       9  OLD      SEQ      N/A   FMTD      R N
+    ./nsvibe_cfg24611_10lb.plt                                    PLOT        14  NEW      SEQ      N/A   UNFMTD   Z   
+    ./nsvibe_cfg24611_10lb.op2                                    OP2         12  NEW      SEQ      N/A   UNFMTD   Z   
+    ./nsvibe_cfg24611_10lb                                        OPCASE      22  UNKNOWN  SEQ      N/A   FMTD        N
+    ./nsvibe_cfg24611_10lb                                        OUTPUT2F    19           SEQ      N/A   UNFMTD      P
+    ./nsvibe_cfg24611_10lb.des                                    TOPDES      21  UNKNOWN  SEQ      N/A   FMTD        N
+    ./nsvibe_cfg24611_10lb.mnf                                    MNF             NEW      SEQ      N/A   UNFMTD       
+    mbdyn_modal.mat                                               OUTPUT4     15  NEW      SEQ      N/A   UNFMTD     A 
+    ./nsvibe_cfg24611_10lb.pch                                    PUNCH        7  NEW      SEQ      N/A   FMTD     Z   
+    ./nsvibe_cfg24611_10lb.xdb                                    DBC         40  NEW      DIRECT   1024  UNFMTD       
+    ./nsvibe_cfg24611_10lb.asm                                    ASM         16  NEW      SEQ      N/A   FMTD     Z   
+    ./nsvibe_cfg24611_10lb.becho                                  BULKECHO    18  NEW      SEQ      N/A   FMTD     Z   
+    ./nsvibe_cfg24611_10lb.aeso                                   AESO        23  NEW      SEQ      N/A   FMTD     Z   
+
+    FLAG VALUES ARE --
+      A   FILE HAS BEEN DEFINED BY AN 'ASSIGN' STATEMENT
+      D   FILE IS TO BE DELETED BEFORE RUN, IF IT EXISTS
+      N   'DEFER' SPECIFIED ON 'ASSIGN' STATEMENT OR FORCED FOR 'SLAVE' PROCESSES
+      P   PREFIX FILE NAME FOR OUTPUT2F FILE(S)
+      R   FILE IS READ-ONLY
+      T   FILE IS TEMPORARY AND WILL BE DELETED AT END OF RUN
+      Z   FILE WILL BE DELETED AT END OF RUN IF ZERO-LENGTH
+
+    ** THE NATIVE MODE FOR SEQUENTIAL UNFORMATTED FILES ON THIS PLATFORM IS LITTLE-ENDIAN (LTLEND)
+
+    ** PHYSICAL FILES LARGER THAN 2GB ARE SUPPORTED ON THIS PLATFORM
+ 
+0    ** MASTER DIRECTORIES ARE LOADED IN MEMORY.
+        USER OPENCORE (HICORE)         =  1608452106  WORDS
+        EXECUTIVE SYSTEM WORK AREA     =      940215  WORDS
+        MASTER(RAM)                    =      200000  WORDS
+        SCRATCH(MEM) AREA              =      819300  WORDS (     100 BUFFERS)
+        BUFFER POOL AREA (BPOOL4)      =   536871004  WORDS (   65528 BUFFERS)
+
+        TOTAL MSC NASTRAN MEMORY LIMIT =  2147482624  WORDS
+
+
+ Day_Time  Elapsed     I/O_Mb      Del_Mb     CPU_Sec    Del_CPU    SubDMAP Line (S)SubDMAP/Module
+ 
+ 16:21:46     0:00       15.0         1.0         0.1        0.0    XSEMDR   BGN
+ 16:21:46     0:00       15.0         0.0         0.1        0.0    SEMODES 46   (S)TESTBIT BEGN    
+ 16:21:46     0:00       15.0         0.0         0.1        0.0    SEMODES 62   (S)IFPL    BEGN    
+ 16:21:46     0:00       15.0         0.0         0.1        0.0    IFPL    61      IFP1    BEGN    
+ 16:21:46     0:00       15.0         0.0         0.1        0.0    IFPL    199  (S)IFPSTAR BEGN    
+ 16:21:46     0:00       15.0         0.0         0.1        0.0    IFPSTAR 14      DBDELETEBEGN    
+ 16:21:46     0:00       15.0         0.0         0.1        0.0    IFPSTAR 16      NEWIFP  BEGN    
+ *** USER INFORMATION MESSAGE 200 (SCA.MDSolver.System.MemoryManager.MemoryManager::addPartition)
+A memory pool is provided by the application.
+Information: the application provided memory pool NastranMainPool will be used by the MDSolver service partition MDS00000.
+ *** SYSTEM INFORMATION MESSAGE 108 (SCA.MDSolver.Io.AccessAccess.AccessAccess)
+     The service SCA.MDSolver.Io.AccessAccess.AccessAccess has a partition name MDS00000 of size 600,000 bytes
+ *** USER INFORMATION MESSAGE 217 (SCA.MDSolver.Io.AccessAccess.AccessAccess::initPagingPool)
+     Static  working area for sdl : 100,000 INTEGER words, 400,000 bytes.
+ Dynamic working area for dbio: 424,097 INTEGER words, 1,696,388 bytes.
+ *** USER INFORMATION MESSAGE 218 (SCA.MDSolver.Io.AccessAccess.AccessAccess::initPagingPool)
+     AccessAccess service dbio paging pool initialized with maxbuf=4096 and maxddl=109803923
+ *** USER INFORMATION MESSAGE 207 (SCA.MDSolver.Io.AccessAccess.AccessAccess::StreamToBinary)
+     The stream input file: ./nsvibe_cfg24611_10lb.bdf 
+with include files path:  
+was converted to its binary form in: ./nsvibe_cfg24611_10lb.T108736_45.IFPDAT 
+using the schema contained in: /usr/local/msc/MSC_Nastran/20131/msc20131/linux64/SSS.IFPSDL for product: NASTRAN, version: 2013.1
+ *** USER INFORMATION MESSAGE 204 (SCA.MDSolver.Io.AccessAccess.AccessAccess::StreamToBinary)
+     An ECHO SORT request was found in the input file ./nsvibe_cfg24611_10lb.bdf
+ *** USER INFORMATION MESSAGE 200 (SCA.MDSolver.System.MemoryManager.MemoryManager::addPartition)
+A memory pool is provided by the application.
+Information: the application provided memory pool NastranMainPool will be used by the MDSolver service partition MDS00001.
+ *** SYSTEM INFORMATION MESSAGE 205 (SCA.MDSolver.Util.QueryAccess.QueryAccess)
+The service SCA.MDSolver.Util.QueryAccess.QueryAccess has a partition name MDS00001 of size 65,536 bytes
+ *       COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY   *
+ *           2:ASET1           1682:CBAR             222:CBEAM            181:CBUSH            316:CHEXA            639:CONM2   
+ *           1:CORD1R            23:CORD2R           158:CPENTA          8668:CQUAD4            88:CQUADR            14:CROD    
+ *         325:CTRIA3            40:CTRIAR             1:EIGRL           8527:GRID              18:MAT1              11:MAT2    
+ *          10:MAT8               1:MAT9               8:PARAM            127:PBAR               1:PBARL              6:PBEAM   
+ *          27:PBUSH            127:PCOMP              2:PROD              42:PSHELL             2:PSOLID             7:RBE2    
+ *          63:RBE3    
+ 16:21:47     0:01       15.0         0.0         1.0        0.9    IFPSTAR 16      NEWIFP  END     
+ 16:21:47     0:01       15.0         0.0         1.0        0.0    IFPSTAR 28      IFPDR   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.0        0.0    IFPSTAR 45      XSORT   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.7    IFPSTAR 45      XSORT   END     
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPSTAR 53      COPY    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPSTAR 54      COPY    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPSTAR 55      COPY    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPSTAR 56      COPY    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPSTAR 59      IFP     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFP     
+ *       COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY          COUNT:ENTRY     *
+ *           8:PARAM              1:PBARL              6:PBEAM             63:RBE3    
+ *    PARAM:  AUTOSPC   GRDPNT    K6ROT     NOCOMPS   OLDSEQ    POST      VREF      WTMASS                                        *
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPSTAR 60      SORTBULKBEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPSTAR 61      SORTBULKBEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPSTAR 62      SORTBULKBEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPSTAR 63      SORTBULKBEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPSTAR 84      MATGEN  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPSTAR 92      IFPEXTRABEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPSTAR 100     DBEQUIV BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPL    200     DBEQUIV BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPL    333  (S)IFPS    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS    84      IFPLC   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS    86      PVT     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS    162     IFP6    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFP6IN  
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFP6OUT 
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS    176     IFP9    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS    204     MODGM2  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS    240     M3DCONT1BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS    279     DSGRDM  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS    293     GP1     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS    349     DYNCXPNTBEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS    362  (S)TESTBIT BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS    465     DBEQUIV BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPL    344     SEPR1   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPL    384     PROJVER BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPL    389     PVT     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPL    423     PVT     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPL    434  (S)IFPS1   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS1   15      SOLVIT  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS1   23      DTIIN   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS1   55      PLTSET  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS1   58      MSGHAN  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS1   59      MSGHAN  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS1   60      GP0     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS1   61      MSGHAN  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPS1   108     DSGRDM  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPL    437  (S)TESTBIT BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    IFPL    475     DTIIN   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    SEMODES 72   (S)PHASE0  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  109     PVT     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  111     PROJVER BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  113     PROJVER BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  140     DTIIN   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  153     OUTPUT2 BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  164  (S)TESTBIT BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  165  (S)TESTBIT BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  166  (S)TESTBIT BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  167  (S)TESTBIT BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  168  (S)TESTBIT BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  203     SEPR1   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  367     COPY    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  368  (S)PBULK   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  370     SEP1X   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  405     GP1     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  410     GP2     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.7        0.0    PHASE0  484     TA1     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  485     TASNP2  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  490     SEP1    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  595     TABPRT  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  596     SEP3    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  796     PVT     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  885     PVT     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  887     PVT     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  1316 (S)DMPGROUPBEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    DMPGROUP16   (S)TESTBIT BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  1495 (S)SETQ    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  1503 (S)PHASE0R BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0R 154     MRGCSTM BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0R 186     GP2     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0R 214     GPJAC   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0R 258     GP3     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0R 262     LCGEN   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  1547    VECPLOT BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  1631    BCDR    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  1636    CASE    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  1638    PVT     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  1731    GP4     BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  1910    BCDR    BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  2080 (S)OUT2GEOMBEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    OUT2GEOM20      MAKEOLD BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    OUT2GEOM21      MAKEOLD BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    OUT2GEOM22      MAKEOLD BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    OUT2GEOM69      OUTPUT2 BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    OUT2GEOM73      OUTPUT2 BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    OUT2GEOM75      OUTPUT2 BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  2190    DTIIN   BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  2191    FTGCAS  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  2195 (S)TRMCDRA BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  2244    MKCSTMA BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PHASE0  2327 (S)ERRPH0  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    ERRPH0  11   (S)TESTBIT BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    ERRPH0  16   (S)PRTSUM  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PRTSUM  38      OUTPUT2 BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PRTSUM  40      PROJVER BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PRTSUM  41      DBDICT  BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PRTSUM  42      PRTPARM BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    PRTSUM  48   (S)TESTBIT BEGN    
+ 16:21:47     0:01       15.0         0.0         1.8        0.0    ERRPH0  17      EXIT    BEGN    
+
+
+ *** PARALLEL PROCESSES CPU INFORMATION (SECONDS) ***
+
+  MODULE     PROCESS-1     PROCESS-2     PROCESS-3     PROCESS-4     PROCESS-5     PROCESS-6     PROCESS-7     PROCESS-8
+  --------   -----------   -----------   -----------   -----------   -----------   -----------   -----------   -----------
+  ========   ===========   ===========   ===========   ===========   ===========   ===========   ===========   ===========
+  MODULE     PROCESS- 9    PROCESS-10    PROCESS-11    PROCESS-12    PROCESS-13    PROCESS-14    PROCESS-15    PROCESS-16
+  --------   -----------   -----------   -----------   -----------   -----------   -----------   -----------   -----------
+  ========   ===========   ===========   ===========   ===========   ===========   ===========   ===========   ===========
+  MODULE     PROCESS-17    PROCESS-18    PROCESS-19    PROCESS-20    PROCESS-21    PROCESS-22    PROCESS-23    PROCESS-24
+  --------   -----------   -----------   -----------   -----------   -----------   -----------   -----------   -----------
+  ========   ===========   ===========   ===========   ===========   ===========   ===========   ===========   ===========
+  
+ *** SYSTEM WARNING MESSAGE 6299 (PARCPU)
+     NO PARALLEL PROCESS CREATED
+
+*** SUMMARY OF COMPONENT SERVICES USAGE ACTIVITY ***
+
+           SERVICE                         LOAD  IMPLEMENTATION    GENERIC             COMPONENT  
+            NAME                           COUNT    LANGUAGE     LIBRARY NAME         LIBRARY NAME 
+
+SCA.Framework.ErrorPolicyManager             1       C++         SCAKernel            SCAKernel                                 
+SCA.Framework.Logger                         1       C++         SCAKernel            SCAKernel                                 
+SCA.Framework.MessageDispatcher              82      C++         SCA/...spatcher_12_0 /usr...ework/libMessageDispatcher_12_0.so 
+SCA.Framework.ResourceManager                1       C++         SCAKernel            SCAKernel                                 
+SCA.Framework.ServiceManager                 21      C++         SCAKernel            SCAKernel                                 
+SCA.Framework.SharedLibraryManager           14      C++         SCAKernel            SCAKernel                                 
+SCA.Framework.TextTranslation                3       C++         SCAKernel            SCAKernel                                 
+SCA.MDSolver.Io.AccessAccess                 17      C++         SCA/...essAccess_6_0 /usr...MDSolver/Io/libAccessAccess_6_0.so 
+SCA.MDSolver.Io.UtilAccess                   6       C++         SCA/...tilAccess_6_0 /usr...A/MDSolver/Io/libUtilAccess_6_0.so 
+SCA.MDSolver.Obj.DataAccess                  28      C++         SCA/...ataAccess_6_0 /usr.../MDSolver/Obj/libDataAccess_6_0.so 
+SCA.MDSolver.Obj.FileAccess                  5       C++         SCA/...ileAccess_6_0 /usr.../MDSolver/Obj/libFileAccess_6_0.so 
+SCA.MDSolver.Obj.InputFile                   1       C++         SCA/...InputFile_6_0 /usr...A/MDSolver/Obj/libInputFile_6_0.so 
+SCA.MDSolver.System.MemoryManager            2       C++         SCA/...ryManager_6_0 /usr...ver/System/libMemoryManager_6_0.so 
+SCA.MDSolver.System.PrintServer              14      C++         SCA/...intServer_6_0 /usr...olver/System/libPrintServer_6_0.so 
+SCA.MDSolver.Util.DML                        1       C++         SCA/.../Util/Dml_6_0 /usr...ib/SCA/MDSolver/Util/libDml_6_0.so 
+SCA.MDSolver.Util.QueryAccess                3       C++         SCA/...eryAccess_6_0 /usr...DSolver/Util/libQueryAccess_6_0.so 
+SCA.MXP.MXPDOMParser                         1       C++         SCA/MXP_12_0         /usr...131/linux64/lib/SCA/libMXP_12_0.so 
+SCA.Util.SystemUtils                         2       C++         SCA/...temUtils_12_0 /usr...ib/SCA/Util/libSystemUtils_12_0.so 
+
+ *** TOTAL MEMORY AND DISK USAGE STATISTICS ***
+
+ +---------- SPARSE SOLUTION MODULES -----------+         +------------- MAXIMUM DISK USAGE -------------+
+    HIWATER               SUB_DMAP        DMAP               HIWATER               SUB_DMAP        DMAP
+    (WORDS)   DAY_TIME      NAME         MODULE                 (MB)   DAY_TIME      NAME         MODULE
+          0   16:21:46    PREFACE     0  PREFACE               0.438   16:21:46    PREFACE     0  PREFACE 
+
+
+ *** DATABASE USAGE STATISTICS ***
+ 
+ +---------------- LOGICAL DBSETS ----------------+   +------------------------------ DBSET FILES -----------------------------+
+  DBSET     ALLOCATED  BLOCKSIZE       USED   USED     FILE      ALLOCATED  ALLOCATED    HIWATER       HIWATER  I/O TRANSFERRED
+             (BLOCKS)    (WORDS)   (BLOCKS)      %                (BLOCKS)       (GB)   (BLOCKS)          (GB)             (GB)
+ 
+  MASTER         5000       8192         86   1.72     MASTER         5000       0.15        125         0.004            0.000
+  DBALL       1000000       8192          7   0.00     DBALL       1000000      30.52          7         0.000            0.000
+  OBJSCR         5000       8192        392   7.84     OBJSCR         5000       0.15        399         0.012            0.000
+  SCRATCH     2000100       8192        223   0.01    (MEMFILE         100       0.00        100         0.003            0.000)
+                                                       SCRATCH     1000000      30.52        186         0.006            0.000
+                                                       SCR300      1000000      30.52        117         0.004            0.000
+                                                                                                                 ==============
+                                                                                                          TOTAL:          0.001
+ 
+ *** BUFFER POOL AND SCRATCH 300 USAGE STATISTICS ***
+ 
+ +----------------- BUFFER POOL -----------------+      +-------------------------- SCRATCH 300 --------------------------+ 
+   OPTION        BLOCKS      BLOCKS      BLOCKS           OPTION    HIWATER               SUB_DMAP        DMAP     OPN/CLS
+  SELECTED     ALLOCATED     REUSED     RELEASED         SELECTED  (BLOCKS)   DAY_TIME      NAME         MODULE    COUNTER
+   BPOOL4         65528       27726           0              2         117    16:21:47    PHASE0    484  TA1           1
+
+
+ *** SUMMARY OF PHYSICAL FILE I/O ACTIVITY ***
+
+ ASSIGNED PHYSICAL FILE NAME                                   RECL (BYTES)  READ/WRITE COUNTS   WSIZE  (WNUM)   I/O COUNT 
+ ------------------------------------------------------------  -----------  -------------------  -------------  -----------
+ ./nsvibe_cfg24611_10lb.T108736_45.SCRATCH                           32768          0/1            N/A            N/A          
+ ./nsvibe_cfg24611_10lb.T108736_45.OBJSCR                            32768          2/4            N/A            N/A          
+ ./nsvibe_cfg24611_10lb.T108736_45.MASTER                            32768          2/4            N/A            N/A          
+ ./nsvibe_cfg24611_10lb.T108736_45.DBALL                             32768          2/4            N/A            N/A          
+ ./nsvibe_cfg24611_10lb.T108736_45.SCR300                            32768          0/1            N/A            N/A          
+ /usr/local/msc/.../20131/msc20131/linux64/SSS.MASTERA               32768         81/0            N/A            N/A          
+ /usr/local/msc/MSC_Nastran/20131/msc20131/linux64/SSS.MSCOBJ        32768        369/0            N/A            N/A          
+ /usr/local/msc/MSC_Nastran/20131/msc20131/linux64/SSS.MSCSOU        32768         10/0            N/A            N/A          
+ 
